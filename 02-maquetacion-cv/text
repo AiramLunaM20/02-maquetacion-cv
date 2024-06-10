@@ -1,0 +1,117 @@
+.music-list ul{
+    margin-top: 10px 0;
+    max-height: 260px;
+    overflow: auto;
+}
+
+.music-list ul li{
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    color: #0000;
+    border-bottom:  1px dolid #e5e5e5;
+}
+music-list ul li: :last-child{
+    border-bottom: 0px;
+}
+.music-list ul li .row span{
+    font-size: 17px;
+}
+.music-list ul li .row p {
+    opacity: 0.6;
+}
+ul li .audio-duration{
+    font-size: 16px;
+}
+bottom: 0;
+opacity: 0;
+
+<style>
+        .row {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; 
+        }
+        .row span, .row p {
+            margin: 0;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .audio-duration {
+            margin-left: auto;
+            padding-left: 10px;
+        }
+        li {
+            list-style-type: none;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .row span {
+            font-weight: bold;
+        }
+        .row p {
+            margin: 0;
+        }
+    </style>
+
+    <ul>
+    <li>
+        <div class="row">
+            <span>G)I-DLE - Tomboy</span>
+             <p> G)I-DLE </p>
+        </div>
+        <span class="audio-duration">1:45</span>
+    </li>    
+    <li>
+        <div class="row">
+            <span>G)I-DLE - Tomboy</span>
+             <p> G)I-DLE </p>
+        </div>
+        <span class="audio-duration">1:45</span>
+    </li>    
+    <li>
+        <div class="row">
+            <span>G)I-DLE - Tomboy</span>
+             <p> G)I-DLE </p>
+        </div>
+        <span class="audio-duration">1:45</span>
+    </li>    
+    <li>
+        <div class="row">
+            <span>G)I-DLE - Tomboy</span>
+             <p> G)I-DLE </p>
+        </div>
+        <span class="audio-duration">1:45</span>
+    </li>    
+    <li>
+        <div class="row">
+            <span>G)I-DLE - Tomboy</span>
+             <p> G)I-DLE </p>
+        </div>
+        <span class="audio-duration">1:45</span>
+    </li>    
+    <li>
+        <div class="row">
+            <span>G)I-DLE - Tomboy</span>
+             <p> G)I-DLE </p>
+        </div>
+        <span class="audio-duration">1:45</span>
+    </li>    
+    <li>
+        <div class="row">
+            <span>G)I-DLE - Tomboy</span>
+             <p> G)I-DLE </p>
+        </div>
+        <span class="audio-duration">1:45</span>
+    </li>    
+</ul>     
+
+
+function loadMusic(indexNumb){
+    musicName.innerText = allMusic[indexNumb].name;
+}
